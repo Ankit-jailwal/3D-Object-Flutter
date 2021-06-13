@@ -24,7 +24,7 @@ class Flutter_3D extends StatelessWidget {
           photoSize: 150,
           backgroundColor: Color(0xff0f1523),
           styleTextUnderTheLoader: new TextStyle(),
-          loaderColor: Colors.grey
+          loaderColor: Colors.white
       ),
     );
   }
