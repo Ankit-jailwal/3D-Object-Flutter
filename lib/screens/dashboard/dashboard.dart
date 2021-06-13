@@ -6,12 +6,13 @@ class dashBoard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter 3D"),
+        backgroundColor: Colors.black,
+        title: Text("Dashboard", style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.w400),),
         leading: IconButton(
           onPressed: (){
             Navigator.pop(context);
           },
-          icon: Icon(Icons.arrow_back),
+          icon: Icon(Icons.arrow_back,color: Colors.white,),
         ),
       ),
       body: Body(),
