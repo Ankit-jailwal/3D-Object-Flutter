@@ -1,4 +1,4 @@
-# flutter_3d
+# FLUTTER 3D
 
 In this project I will be using .obj files in Flutter.
 
