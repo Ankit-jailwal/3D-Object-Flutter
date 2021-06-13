@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cube/flutter_cube.dart';
 
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return  Center(
+      child: Cube(
+        onSceneCreated: (Scene scene) {
+          scene.world.add(Object(fileName: 'assets/object/formula1.obj'));
+        },
+      ),
+    );
   }
 }
