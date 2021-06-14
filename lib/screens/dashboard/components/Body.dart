@@ -7,7 +7,7 @@ class Body extends StatelessWidget {
     return  Center(
       child: Cube(
         onSceneCreated: (Scene scene) {
-          scene.world.add(Object(fileName: 'assets/object/formula1.obj'));
+          scene.world.add(Object(fileName: 'assets/object/city.obj'));
         },
       ),
     );
