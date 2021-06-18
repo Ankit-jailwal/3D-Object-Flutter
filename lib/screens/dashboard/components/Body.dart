@@ -10,7 +10,7 @@ class Body extends StatelessWidget {
           scene.world.add(Object(
               lighting: true,
               scale:Vector3(2,2,2),
-              fileName: 'assets/object/formula1.obj'));
+              fileName: 'assets/object/sword.obj'));
         },
       ),
     );
